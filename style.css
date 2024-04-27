@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #A6A6A6;
+    --secondary-color:  #595959;
+    --accent-color: #404040;
+    --primary-neutral-color: #F2F2F2;
+    --secondary-neutral-color: #D9D9D9;
+  }
+body {
+    margin: 0;
+    background-color: var(--secondary-neutral-color);
+}
+/*Navigation Bar */
+nav {
+    background-color: var(--secondary-color);
+    min-height: 30px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+}
+.nav-button {
+    padding: 5vh 16px;
+}
+.nav-button:hover {
+    background-color: var(--accent-color);
+}
