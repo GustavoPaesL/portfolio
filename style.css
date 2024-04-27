@@ -33,12 +33,16 @@ nav {
     justify-content: right;
     align-items: center;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 .nav-button {
     padding: 5vh 16px;
 }
 .nav-button:hover {
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 /*home*/
 .container-home {
@@ -47,7 +51,7 @@ nav {
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 70vh;
-    margin-top: 10vh;
+    margin-top: 20vh;
     margin-bottom: 10vh;
 }
 .home-left{
@@ -84,4 +88,22 @@ nav {
     border: 5px solid var(--secondary-color);
     border-radius: 20%;
     overflow: hidden;   
+}
+/*aboutMe*/
+.container-aboutMe{
+    background-color: var(--primary-neutral-color);
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    align-content: center;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.aboutMe-h1{
+    padding-left: 10%;
+}
+.aboutMe{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2em;
 }
