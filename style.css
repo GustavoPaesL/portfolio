@@ -107,3 +107,22 @@ nav {
     padding-right: 10%;
     font-size: 1.2em;
 }
+/* skills */
+.container-skills{
+    background-color: var(--primary-neutral-color);
+    display: flex;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.container-icons{
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 25%;
+}
+.skills-icons{
+width: 70%;
+margin-left: 15%;
+text-align: center;
+}
