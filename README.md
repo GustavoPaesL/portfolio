@@ -6,7 +6,7 @@ Este é o projeto do meu portfólio pessoal, desenvolvido como parte do meu proc
 ## Objetivos
 - [ ] Deixar o site visualmente agradavel <br>
 - [ ] Criar um site responsivo <br>
-- [ ] Utilizar imagens <br>
+- [X] Utilizar imagens <br>
 - [ ] Inserir animações 
 
 ## Conteúdo
