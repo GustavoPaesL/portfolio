@@ -16,7 +16,16 @@ function goAboutMe() {
     });
 }
 function goSkills() {
-  var positionVh = 180;
+  var positionVh = 160;
+  var positionPx = (positionVh * window.innerHeight) / 100;
+
+  window.scrollTo({
+    top: positionPx,
+    behavior: 'smooth'
+  });
+}
+function goContact() {
+  var positionVh = 240;
   var positionPx = (positionVh * window.innerHeight) / 100;
 
   window.scrollTo({
