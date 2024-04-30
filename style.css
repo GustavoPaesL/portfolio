@@ -7,7 +7,7 @@
   }
 
 *{
-    font-family: 'Poppins', sans-serif; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
     margin: 0;
@@ -19,9 +19,14 @@ h1{
 }
 h2{
     margin: 5px;
+    text-decoration: none;
 }
 h3{
     margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 /*Navigation Bar */
 nav {
@@ -56,7 +61,7 @@ nav {
 }
 .home-left{
     width: 40%;
-    }
+}
 .home-text {
     height: 80%;
     width: 40%;
